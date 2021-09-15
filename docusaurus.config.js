@@ -8,11 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: 'Dinosaurs are cool',
   url: 'https://btat.github.io',
   baseUrl: '/rancher-docusaurus/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'btat', // Usually your GitHub org/user name.
   projectName: 'rancher-docusaurus', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
